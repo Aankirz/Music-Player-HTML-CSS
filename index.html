@@ -1,0 +1,785 @@
+<!-- Pg-1(Landing Page): Music Player (762 lines) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- For Responsiveness -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Music Player
+    </title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+
+    <!-- Favicon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="spotify.png" />
+
+    <!-- Fontawesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/595b1dac94.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- Body(div into 4 sec):          Line No.
+                            1.Header (30)
+                            2.Main   (74)
+                            3.Aside  (296) 
+                            4.Sidebox(sidebar menu for mob view)(605)
+                            4.Master Player(694)
+ -->
+
+  <body>
+    <!-- Header-->
+    <header>
+      <!-- Brand Logo -->
+      <img src="ninja1.jpg" alt="logo" />
+      <!-- Brand Title -->
+      <span
+        ><h4>Ninja Studio</h4>
+        <!-- Brand Tagline -->
+        <div class="subtitle">
+          Music for everyone <i class="fa-regular fa-copyright"></i>
+        </div>
+      </span>
+      <!-- Favourite sec -->
+      <span id="fav">
+        <h3>Favourites</h3>
+        <!-- icon used in mobile view -->
+        <i class="fa-solid fa-heart"></i>
+      </span>
+
+      <!-- Search Box(Animated) -->
+      <span class="search_box">
+        <form action="" class="search_bar">
+          <input
+            type="text"
+            name="search-music"
+            placeholder="Artists,Songs or Podcasts"
+          />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </span>
+      <span id="icons">
+        <i class="fa-regular fa-bell"></i>
+      </span>
+      <span class="user">
+        <img src="elon1.jpg" />
+      </span>
+    </header>
+
+    <!-- Main Section(div into 10 sec) :1.Good-Evening
+                                  2.Song-Banners/Caraousels
+                                  3.Latest-Release
+                                  4.Popular-Artists
+                                  5.Music-Station
+                                  6.Music-Theme
+                                  7.Your-Top-Mixes 
+                                  8.Podcasts
+                                  9.Latest Hindi
+                                  10.Latest English
+    -->
+    <main>
+      <!-- Wishing Users -->
+      <div class="Good_Evening">
+        <p>Good Evening !🙋🏻‍♀️</p>
+      </div>
+
+      <!-- Song Banners -->
+      <div class="song_banner">
+        <div>
+          <img src="banner-1.jpg" />
+          <img src="banner-3.jpg" />
+          <img src="banner-2.jpg" />
+        </div>
+      </div>
+
+      <!-- Latest Release -->
+      <h3>Latest Release</h3>
+      <div class="latest-release-container">
+        <li>
+          <div class="play-logo">
+            <!-- Music Img -->
+            <img src="sl_1.png" />
+
+            <!-- Overlay:Play btn -->
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span
+            ><h4>Excuses</h4>
+            <div class="subtitle">
+              <h6>22 May 2022</h6>
+              <!-- <h6> 2:56</h6> -->
+            </div>
+          </span>
+
+          <!-- A dropdown Menu -->
+          <span class="active">
+            <a href="#"> <i class="fa-solid fa-ellipsis"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add to Favourite</a></li>
+                <li><a href="#">Add to Queue</a></li>
+                <li><a href="#">Share</a></li>
+              </ul>
+            </div>
+          </span>
+        </li>
+
+        <!-- Rest Repeated till 211 line -->
+        <li>
+          <div class="play-logo">
+            <img src="sl_1.png" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span
+            ><h4>Excuses</h4>
+            <div class="subtitle">
+              <h6>22 May 2022</h6>
+              <!-- <h6> 2:56</h6> -->
+            </div>
+          </span>
+          <span class="active">
+            <a href="#"> <i class="fa-solid fa-ellipsis"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add to Favourite</a></li>
+                <li><a href="#">Add to Queue</a></li>
+                <li><a href="#">Share</a></li>
+              </ul>
+            </div>
+          </span>
+        </li>
+        <li>
+          <div class="play-logo">
+            <img src="sl_1.png" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span
+            ><h4>Excuses</h4>
+            <div class="subtitle">
+              <h6>22 May 2022</h6>
+              <!-- <h6> 2:56</h6> -->
+            </div>
+          </span>
+          <span class="active">
+            <a href="#"> <i class="fa-solid fa-ellipsis"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add to Favourite</a></li>
+                <li><a href="#">Add to Queue</a></li>
+                <li><a href="#">Share</a></li>
+              </ul>
+            </div>
+          </span>
+        </li>
+        <li>
+          <div class="play-logo">
+            <img src="sl_1.png" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span
+            ><h4>Excuses</h4>
+            <div class="subtitle">
+              <h6>22 May 2022</h6>
+              <!-- <h6> 2:56</h6> -->
+            </div>
+          </span>
+          <span class="active">
+            <a href="#"> <i class="fa-solid fa-ellipsis"></i></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">Add to Favourite</a></li>
+                <li><a href="#">Add to Queue</a></li>
+                <li><a href="#">Share</a></li>
+              </ul>
+            </div>
+          </span>
+        </li>
+      </div>
+
+      <!-- Popular Artists : 4-->
+
+      <h3>Popular Artists</h3>
+      <div class="popular-artist-container">
+        <!-- Linked with 2nd Page:Single pLaylist -->
+        <a href="https://izreg5.csb.app/" target="_blank"
+          ><img src="arijit.png"
+        /></a>
+
+        <a href="https://izreg5.csb.app/" target="_blank"
+          ><img src="pa-2.jpg"
+        /></a>
+        <a href="https://izreg5.csb.app/" target="_blank"
+          ><img src="pa-3.jpg"
+        /></a>
+        <a href="https://izreg5.csb.app/" target="_blank"
+          ><img src="pa-4.jpg"
+        /></a>
+      </div>
+
+      <!-- Music Station:4 -->
+      <div class="music-station">
+        <li class="rock">
+          <img src="rck.jpg" />
+          <h5>Rock</h5>
+        </li>
+        <li>
+          <img src="radio.jpg" />
+          <h5>Retro</h5>
+        </li>
+        <li>
+          <img src="chill.jpg" />
+          <h5>chill</h5>
+        </li>
+        <li>
+          <img src="work.jpg" />
+          <h5>workout</h5>
+        </li>
+      </div>
+
+      <!-- Music Themes:3 -->
+      <div class="music-themes">
+        <li>
+          <img src="mt-1.jpg" />
+          <h5>Party</h5>
+        </li>
+        <li>
+          <img src="mt-2.jpg" />
+          <h5>Electronic</h5>
+        </li>
+        <li>
+          <img src="mt-3.jpg" />
+          <h5><span>RoadTr</span>ip</h5>
+        </li>
+      </div>
+
+      <!-- Your Top Mixes -->
+
+      <h3>Your Top Mixes</h3>
+      <div class="your-top-mixes">
+        <img src="mix-1.jpg" />
+        <img src="mix-2.jpg" />
+        <img src="mix-3.jpg" />
+        <img src="mix-4.jpg" />
+        <img src="mix-5.jpg" />
+      </div>
+
+      <!-- Podcasts -->
+      <h3>Podcasts</h3>
+      <div class="podcasts">
+        <img src="pod-1.jpg" />
+        <img src="pod-2.jpg" />
+        <img src="pod-3.jpg" />
+        <img src="pod-4.jpg" />
+        <img src="pod-5.jpg" />
+      </div>
+
+      <!-- Latest Hindi -->
+      <h3>Latest Hindi</h3>
+      <div class="latest-hindi">
+        <img src="lh-1.jpg" />
+        <img src="lh-2.jpg" />
+        <img src="lh-3.jpg" />
+        <img src="lh-1.jpg" />
+        <img src="lh-3.jpg" />
+      </div>
+
+      <!-- Latest English -->
+      <h3>Latest English</h3>
+      <div class="latest-english">
+        <img src="le-1.jpg" />
+        <img src="le-2.jpg" />
+        <img src="le-3.jpg" />
+        <img src="le-1.jpg" />
+        <img src="le-2.jpg" />
+      </div>
+    </main>
+
+    <!-- Aside Section:For Playlist -->
+    <aside>
+      <span>
+        <h1>Playlist</h1>
+
+        <!-- Label for Dropdown menu -->
+        <label for="btn" class="dropdown">
+          <h5>Queue <i class="fa-solid fa-caret-down"></i></h5>
+        </label>
+        <input type="checkbox" name="checkbox" id="btn" />
+        <ul class="ddmenu">
+          <li><a href="#">Playlist</a></li>
+          <li><a href="#">Favourite songs</a></li>
+        </ul>
+      </span>
+
+      <!-- Playlist Class -->
+      <div class="playlist">
+        <li>
+          <span class="subtitle">01</span>
+          <div class="play-logo">
+            <img src="pl-1.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Warm</h4>
+            <div class="subtitle">Still Woozy</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">02</span>
+          <div class="play-logo">
+            <img src="pl-2.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Pasoori</h4>
+            <div class="subtitle">Shae Gil</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">03</span>
+          <div class="play-logo">
+            <img src="pl-3.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shiddat</h4>
+            <div class="subtitle">Manan Bhardwaj</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">04</span>
+          <div class="play-logo">
+            <img src="pl-4.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shandar</h4>
+            <div class="subtitle">Amit Trivedi</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">01</span>
+          <div class="play-logo">
+            <img src="pl-1.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Warm</h4>
+            <div class="subtitle">Still Woozy</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">02</span>
+          <div class="play-logo">
+            <img src="pl-2.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Pasoori</h4>
+            <div class="subtitle">Shae Gil</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">03</span>
+          <div class="play-logo">
+            <img src="pl-3.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shiddat</h4>
+            <div class="subtitle">Manan Bhardwaj</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">04</span>
+          <div class="play-logo">
+            <img src="pl-4.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shandar</h4>
+            <div class="subtitle">Amit Trivedi</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">01</span>
+          <div class="play-logo">
+            <img src="pl-1.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Warm</h4>
+            <div class="subtitle">Still Woozy</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">02</span>
+          <div class="play-logo">
+            <img src="pl-2.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Pasoori</h4>
+            <div class="subtitle">Shae Gil</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">03</span>
+          <div class="play-logo">
+            <img src="pl-3.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shiddat</h4>
+            <div class="subtitle">Manan Bhardwaj</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">04</span>
+          <div class="play-logo">
+            <img src="pl-4.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shandar</h4>
+            <div class="subtitle">Amit Trivedi</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">01</span>
+          <div class="play-logo">
+            <img src="pl-1.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Warm</h4>
+            <div class="subtitle">Still Woozy</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">02</span>
+          <div class="play-logo">
+            <img src="pl-2.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Pasoori</h4>
+            <div class="subtitle">Shae Gil</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">03</span>
+          <div class="play-logo">
+            <img src="pl-3.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shiddat</h4>
+            <div class="subtitle">Manan Bhardwaj</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+        <li>
+          <span class="subtitle">04</span>
+          <div class="play-logo">
+            <img src="pl-4.jpg" />
+            <div class="overlay">
+              <div class="play-circle">
+                <i class="fa-solid fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+
+          <span>
+            <h4>Shandar</h4>
+            <div class="subtitle">Amit Trivedi</div>
+          </span>
+          <span>
+            <i class="fa-solid fa-ellipsis"></i>
+          </span>
+        </li>
+      </div>
+    </aside>
+
+    <!--      Sidebox for Dropdown menu(in mobile view) -->
+    <div class="sidebox">
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+      <div class="sidebar">
+        <h2>
+          Playlist
+        </h2>
+        <ul>
+          <li>
+            <span class="subtitle">01</span>
+            <div class="play-logo">
+              <img src="pl-2.jpg" />
+              <div class="overlay">
+                <div class="play-circle">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <h4>Goodie Bag</h4>
+              <div class="subtitle">Still Woozy</div>
+            </span>
+            <i class="fa-regular fa-heart"></i>
+          </li>
+          <li>
+            <span class="subtitle">01</span>
+            <div class="play-logo">
+              <img src="pl-2.jpg" />
+              <div class="overlay">
+                <div class="play-circle">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <h4>Goodie Bag</h4>
+              <div class="subtitle">Still Woozy</div>
+            </span>
+            <i class="fa-regular fa-heart"></i>
+          </li>
+          <li>
+            <span class="subtitle">03</span>
+            <div class="play-logo">
+              <img src="pl-3.jpg" />
+              <div class="overlay">
+                <div class="play-circle">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <h4>Shiddat</h4>
+              <div class="subtitle">Manan Bhardwaj</div>
+            </span>
+            <span>
+              <i class="fa-regular fa-heart"></i>
+            </span>
+          </li>
+          <li>
+            <span class="subtitle">04</span>
+            <div class="play-logo">
+              <img src="pl-4.jpg" />
+              <div class="overlay">
+                <div class="play-circle">
+                  <i class="fa-solid fa-circle-play"></i>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <h4>Shandar</h4>
+              <div class="subtitle">Amit Trivedi</div>
+            </span>
+            <span>
+              <i class="fa-regular fa-heart"></i>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Master Player -->
+    <div class="master_player">
+      <!-- Mus Player img -->
+      <img src="music_player.png" />
+      <span
+        ><h5>Gulabo</h5>
+        <div class="subtitle">Vishal Dadlani,Anusha Mani</div>
+      </span>
+
+      <!-- Logos -->
+      <label for="heart">
+        <i class="fa-regular fa-heart"></i>
+      </label>
+      <input type="checkbox" id="heart" />
+      <span id="heart-logo"><i class="fa-solid fa-heart"></i></span>
+      <i class="fa-solid fa-podcast"></i>
+
+      <!-- Audio Player and Play Controls -->
+      <div id="play_controls">
+        <i class="fa-solid fa-backward-step"></i>
+        <i class="fa-solid fa-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+      </div>
+      <div class="music_player">
+        <span id="currentStart">0.00</span>
+        <div class="bar">
+          <input
+            type="range"
+            name="bar"
+            id="slider"
+            min="0"
+            value="40"
+            max="100"
+          />
+          <!-- Creating my own selector button -->
+          <div id="selector">
+            <div class="selectBtn"></div>
+          </div>
+        </div>
+        <span id="currentEnd">0.00</span>
+      </div>
+
+      <div class="icons">
+        <i class="fa-solid fa-volume-high"></i>
+        <i class="fa-solid fa-headphones-simple"></i>
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
+
+<!-- The End -->
